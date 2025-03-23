@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery</title>
+    <style>
+        body {
+            background: url('img/dark_coding_wallpaper.png') no-repeat center center fixed;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.85);
+            background-blend-mode: darken;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.9);
+            border-bottom: 2px solid #00ffcc;
+            text-align: center;
+        }
+
+        header h1 {
+            color: #00ffcc;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+
+        nav a:hover {
+            color: #00ffcc;
+        }
+
+        main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 1000px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+
+        h2 {
+            color: #00ffcc;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th,
+        table td {
+            padding: 10px;
+            text-align: center;
+            border: 1px solid #00ffcc;
+        }
+
+        table th {
+            background-color: rgba(0, 0, 0, 0.9);
+            color: #00ffcc;
+        }
+
+        table td {
+            background-color: rgba(0, 0, 0, 0.7);
+            width: 33%;
+        }
+
+        .gallery-img {
+            max-width: 100%;
+            height: auto;
+            object-fit: cover;
+            border-radius: 8px;
+        }
+
+        footer {
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.9);
+            border-top: 2px solid #00ffcc;
+            margin-top: 20px;
+            text-align: center;
+        }
+        footer p {
+            color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>My Gallery</h1>
+    <nav>
+        <a href="main.html">Home</a> |
+        <a href="my_gallery.html">Gallery</a> |
+        <a href="about_me.html">About</a> |
+        <a href="contact_me.html">Contact</a>
+    </nav>
+</header>
+
+<main>
+    <h2>My Work Journey</h2>
+
+    <table>
+        <tr>
+            <td><img src="img/Udemy_python_certificate.png" alt="Project 1" class="gallery-img"></td>
+            <td><img src="img/github.png" alt="Project 2" class="gallery-img"></td>
+            <td><img src="img/Data_science.png" alt="Project 3" class="gallery-img"></td>
+        </tr>
+        <tr>
+            <td><img src="img/Fast_API_app.png" alt="Project 4" class="gallery-img"></td>
+            <td><img src="img/admin_view.png" alt="Project 5" class="gallery-img"></td>
+            <td><img src="img/front_view.png" alt="Project 6" class="gallery-img"></td>
+        </tr>
+    </table>
+</main>
+
+<footer style="padding: 15px; background: rgba(0, 0, 0, 0.9); border-top: 2px solid #00ffcc; margin-top: 20px;">
+    <p>&copy; 2025 My Portfolio | All Rights Reserved</p>
+</footer>
+
+</body>
+</html>

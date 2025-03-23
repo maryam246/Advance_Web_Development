@@ -1,0 +1,187 @@
+/* Universal Selector */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f7f5f5;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Header Styling */
+header {
+    border: 6px solid #f1d5e8;  /* Corrected border property */
+    background-color: #007bff;
+    color: white;
+    padding: 20px;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+/* Section Styling (Now Div Styling) */
+.section {
+    background-color: rgb(255, 219, 219);
+    margin: 20px auto;
+    padding: 20px;
+    border-radius: 8px;
+    width: 80%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    overflow: auto;
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6 {
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+/* Headings in Heading Examples Section */
+#heading-examples h1,
+#heading-examples h2,
+#heading-examples h3,
+#heading-examples h4,
+#heading-examples h5,
+#heading-examples h6 {
+    color: black;
+}
+
+/* Text Formatting */
+.bold { font-weight: bold; }
+.italic { font-style: italic; }
+.underline { text-decoration: underline; }
+.small { font-size: small; }
+.emphasized { font-style: italic; }
+.strong { font-weight: bold; }
+.mark { background-color: yellow; }
+.quote { font-style: italic; border-left: 4px solid #007bff; padding-left: 10px; margin: 5px 0; }
+
+/* List Styling */
+ul, ol {
+    text-align: left;
+    margin: 10px auto;
+    width: 50%;
+}
+dl {
+	text-align: left;
+	margin: 10px auto;
+	width: 50%;
+}
+dt {
+	font-weight: bold;
+	margin-top: 5px;
+}
+dd {
+	margin-bottom: 5px;
+}
+
+/* Table Styling */
+table.table {
+    width: 90%;
+    border: 10px solid rgb(150, 150, 253);
+    border-collapse: separate; /* Keep borders separated */
+    margin: 20px auto;
+    border-spacing: 10px;   /* Space between the cells */
+    box-shadow: 0 4px 8px rgba(247, 93, 4, 0.897);
+    
+}
+
+table.table td {
+    border: 2px solid rgb(207, 204, 37);  
+    border-radius: 10px;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    font-size: 1.2em;
+    color: #e621a4;
+}
+
+/* Specific layout cells */
+.header-cell {
+    background-color: #f0f8ff; /* LightAliceBlue background */
+    grid-column: span 2;      /* Take full width */
+}
+
+.navigation-cell {
+    background-color: #e6e6fa; /* Lavender background */
+    width: 30%;                /* Take 30% of the width */
+}
+
+.content-cell {
+    background-color: #fffafa; /* PapayaWhip background */
+    width: 70%;                /* Take 70% of the width */
+}
+
+.footer-cell {
+    background-color: #f0ffff; /* Azure background */
+    grid-column: span 2;      /* Take full width */
+}
+
+/* Form Styling */
+form {
+    text-align: left;
+    width: 60%;
+    margin: 0 auto;
+}
+label {
+    display: block;
+    margin-top: 10px;
+}
+input, textarea, select, button {
+    display: block;
+    margin-top: 5px;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+button {
+	background-color: #007bff;
+	color: white;
+	cursor: pointer;
+}
+/* Image Styling */
+img {
+    width: 400px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+hr{
+    color: navy;
+}
+
+/* IFrame */
+iframe {
+    width: 400px;
+    height: 250px;
+    margin-top: 10px;
+    border: none;
+}
+
+/* Video */
+video {
+    width: 600px;
+    height:350px;
+    margin-top: 10px;
+}
+
+/* Marquee */
+marquee {
+    color: red;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+/* Footer */
+footer {
+    border: 6px solid #f1d5e8;
+    margin-top: 20px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+}

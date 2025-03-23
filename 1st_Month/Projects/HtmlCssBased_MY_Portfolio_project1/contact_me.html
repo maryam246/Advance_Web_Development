@@ -1,0 +1,118 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Me</title>
+    <style>
+        body {
+            background: url('img/dark_coding_wallpaper.png') no-repeat center center fixed;
+            background-size: cover;
+            background-color: rgba(0, 0, 0, 0.85);
+            background-blend-mode: darken;
+            color: #e0e0e0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            padding: 20px;
+            background: rgba(0, 0, 0, 0.9);
+            border-bottom: 2px solid #00ffcc;
+            text-align: center;
+        }
+        header h1 {
+            color: #00ffcc;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 10px;
+        }
+        main {
+            margin: 20px auto;
+            padding: 20px;
+            max-width: 800px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            text-align: center;
+        }
+        form {
+            text-align: left;
+        }
+        label {
+            display: block;
+            margin: 10px 0 5px;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 2px solid #00ffcc;
+            border-radius: 5px;
+            background-color: rgba(0, 0, 0, 0.2);
+            color: #fff;
+        }
+        input[type="submit"] {
+            background-color: #00ffcc;
+            color: black;
+            border: none;
+            cursor: pointer;
+            padding: 10px 20px;
+        }
+        input[type="submit"]:hover {
+            background-color: #00cc99;
+        }
+        footer {
+            padding: 15px;
+            background: rgba(0, 0, 0, 0.9);
+            border-top: 2px solid #00ffcc;
+            margin-top: 20px;
+            text-align: center;
+        }
+        footer p {
+            color: #e0e0e0;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Contact Me</h1>
+        <nav>
+            <a href="main.html">Home</a> |
+            <a href="my_gallery.html">Gallery</a> |
+            <a href="about_me.html">About</a> |
+            <a href="contact_me.html">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <h2>Send a Message</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required><br>
+
+            <label for="message">Message:</label><br>
+            <textarea id="message" name="message" rows="5" required></textarea><br>
+
+            <input type="submit" value="Send">
+        </form>
+    </main>
+
+    <section style="text-align: center;">
+        <h3>My Contact Details</h3>
+        <p>Email: <a href="mailto:myportfolio@gmail.com" style="color: #00ffcc;">myportfolio@gmail.com</a></p>
+        <p>Phone: <span style="color: #00ffcc;">+92 4567 777</span></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 My Portfolio | All Rights Reserved</p>
+    </footer>
+
+</body>
+</html>

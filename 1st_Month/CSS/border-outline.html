@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Border & Outline Combination</title>
+    <style>
+        .combined {
+            width: 250px; /* Fixed width for demo */
+            padding: 15px;
+            margin: 20px auto; /* Center the element */
+            text-align: center;
+            border: 4px solid green;  /* Solid border */
+            outline: 4px dashed orange; /* Dashed outline */
+            outline-offset: 5px;   /* Space between border and outline */
+            background-color: #f0f8ff; /* Light background color */
+            font-family: sans-serif;
+            box-shadow: 3px 3px 5px rgba(0,0,0,0.3); /* Subtle shadow */
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Border & Outline Combination</h1>
+    <p>This example demonstrates how to combine CSS <code>border</code> and <code>outline</code> properties to create visually appealing effects.</p>
+
+    <div class="combined">
+        This element has both a border and an outline.
+    </div>
+
+    <h2>Explanation:</h2>
+    <ul>
+        <li><b>border</b>: Adds a border around the element.  You can control the width, style (solid, dashed, dotted, etc.), and color.</li>
+        <li><b>outline</b>: Draws a line *outside* the border. It doesn't affect the element's dimensions. You can also control the width, style, and color.</li>
+        <li><b>outline-offset</b>:  This property adds space between the border and the outline, making them visually distinct. A positive value moves the outline further away from the border; a negative value moves it closer (potentially overlapping).</li>
+    </ul>
+</body>
+</html>

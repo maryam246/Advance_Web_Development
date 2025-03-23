@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Box Sizing & Overflow</title>
+    <style>
+        .box-sizing-example {
+            width: 200px;
+            padding: 20px;
+            border: 5px solid black;
+            box-sizing: border-box; /* Total width will be 200px */
+            background-color: lightblue;
+        }
+
+        .overflow-example {
+            width: 200px;
+            height: 100px;
+            background-color: lightgreen;
+            overflow: scroll; /* Show scrollbars */
+        }
+    </style>
+</head>
+<body>
+    <h1>CSS Box Sizing & Overflow</h1>
+    <p><code>box-sizing</code> controls how the width and height of an element are calculated, while <code>overflow</code> controls how content is displayed when it exceeds the element's boundaries.</p>
+
+    <div class="box-sizing-example">This element uses box-sizing: border-box. The padding and border are included in the total width.</div><br><br>
+
+    <div class="overflow-example">This element has overflow: scroll. If the content exceeds the height, scrollbars will appear.  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</div>
+</body>
+</html>

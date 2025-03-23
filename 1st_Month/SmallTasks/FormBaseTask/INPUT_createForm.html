@@ -1,0 +1,117 @@
+<!-- This is the main HTML document -->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Welcome in XYZ</title> <!-- Title of the webpage -->
+</head>
+<body>
+
+    <h1>----Job Application Form-----</h1>
+    
+    <!-- Job Application Form Starts Here -->
+    <form>
+        <p>Please complete the form below to download your free guide.</p>
+        <p><small>Fields marked with a * are required.</small></p>
+
+        <table>
+            <!-- First Name Input Field -->
+            <tr>
+                <td><label for="first-name">First name*:</label></td>
+                <td><input type="text" id="first-name" name="first-name" required></td>
+            </tr>
+            <!-- Last Name Input Field -->
+            <tr>
+                <td><label for="last-name">Last name*:</label></td>
+                <td><input type="text" id="last-name" name="last-name" required></td>
+            </tr>
+            <!-- Email Input Field -->
+            <tr>
+                <td><label for="email">Email*:</label></td>
+                <td><input type="email" id="email" name="email" required></td>
+            </tr>
+            <!-- Confirm Email Input Field -->
+            <tr>
+                <td><label for="confirm-email">Confirm email*:</label></td>
+                <td><input type="email" id="confirm-email" name="confirm-email" required></td>
+            </tr>
+            <!-- Password Input Field -->
+            <tr>
+                <td><label for="password">Password*:</label></td>
+                <td><input type="password" id="password" name="password" required></td>
+            </tr>
+            <!-- Company Name Input Field -->
+            <tr>
+                <td><label for="company">Company*:</label></td>
+                <td><input type="text" id="company" name="company" required></td>
+            </tr>
+            <!-- Job Title Input Field -->
+            <tr>
+                <td><label for="job-title">Job title*:</label></td>
+                <td><input type="text" id="job-title" name="job-title"></td>
+            </tr>
+            <!-- Phone Number Input Field -->
+            <tr>
+                <td><label for="phone">Phone Number*:</label></td>
+                <td><input type="tel" id="phone" name="phone" required></td>
+            </tr>
+            <!-- Date of Birth Input Field -->
+            <tr>
+                <td><label for="dob">Date of Birth*:</label></td>
+                <td><input type="date" id="dob" name="dob" required></td>
+            </tr>
+            <!-- Resume Upload Field -->
+            <tr>
+                <td><label for="resume">Upload Resume:</label></td>
+                <td><input type="file" id="resume" name="resume"></td>
+            </tr>
+            <!-- Years of Experience Input Field -->
+            <tr>
+                <td><label for="experience">Years of Experience:</label></td>
+                <td><input type="number" id="experience" name="experience" min="0"></td>
+            </tr>
+            <!-- Availability Date Input Field -->
+            <tr>
+                <td><label for="availability">Available to Start:</label></td>
+                <td><input type="datetime-local" id="availability" name="availability"></td>
+            </tr>
+            <!-- Country Dropdown Selection -->
+            <tr>
+                <td><label for="country">Country*:</label></td>
+                <td>
+                    <select id="country" name="country" required>
+                        <option value="">Choose...</option>
+                        <option value="USA">United States</option>
+                        <option value="UK">United Kingdom</option>
+                        <option value="Canada">Canada</option>
+                        <option value="Australia">Australia</option>
+                        <option value="India">India</option>
+                    </select>
+                </td>
+            </tr>
+        </table>
+
+        <!-- Preferred Contact Method (Radio Buttons) -->
+        <p>Preferred Contact Method:</p>
+        <input type="radio" id="contact-email" name="contact-method" value="email">
+        <label for="contact-email">Email</label>
+
+        <input type="radio" id="contact-phone" name="contact-method" value="phone">
+        <label for="contact-phone">Phone</label>
+        <br><br>
+
+        <!-- Newsletter Subscription (Checkbox) -->
+        <p>Subscribe to Newsletter:</p>
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Yes, I want to receive updates</label>
+        <br><br>
+
+        <!-- Hidden Input Field for Form Identification -->
+        <input type="hidden" name="form-id" value="guide-download">
+
+        <!-- Submit and Reset Buttons -->
+        <input type="submit" value="Submit your enquiry">
+        <input type="reset" value="Reset Form">
+    </form>
+
+</body>
+</html>

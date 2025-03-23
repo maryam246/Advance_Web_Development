@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Table Example with Colspan and Rowspan</title>
+</head>
+<body>
+    
+    <h2>Student Grades Table</h2>
+    
+    <!-- Creating a table without using CSS properties -->
+    <table border="1"> <!-- Adds a border for better readability -->
+        
+        <!-- Table Header -->
+        <tr>
+            <th rowspan="2">Student Name</th> <!-- Merges two rows into one column -->
+            <th colspan="3">Subjects</th> <!-- Merges three columns into one header cell -->
+        </tr>
+        
+        <tr>
+            <th>Math</th>
+            <th>Science</th>
+            <th>English</th>
+        </tr>
+        <img src="https://th.bing.com/th/id/OIP.lTOe2w5CBvbOvYYGDJxGKQHaDt?rs=1&pid=ImgDetMain">
+        <!-- Table Data Rows -->
+        <tr>
+            <td>Maryam</td>
+            <td>85</td>
+            <td>90</td>
+            <td>88</td>
+        </tr>
+        <tr>
+            <td>Fatima</td>
+            <td>78</td>
+            <td>92</td>
+            <td>80</td>
+        </tr>
+        <tr>
+            <td>Ramisha</td>
+            <td colspan="2">Absent</td> <!-- Merging two subject columns to indicate absence -->
+            <td>75</td>
+        </tr>
+        
+        <!-- Footer Row -->
+        <tr align="center">
+            <td colspan="4">End of Records</td> <!-- Merging all columns to indicate the end -->
+        </tr>
+    </table>
+    
+</body>
+</html>

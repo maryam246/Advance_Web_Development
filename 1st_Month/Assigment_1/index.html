@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="HTML & CSS Learning Hub - Learn the basics of HTML and CSS with practical examples.">
+    <title>HTML & CSS</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+    <header>HTML & CSS</header>
+
+    <div class="section">
+        <h1>Introduction to HTML</h1>
+        <p>HTML stands for <b>HyperText Markup Language</b>. It is used to structure web pages. This hub also has an <a href="#about">About</a> section to give you more context.</p>
+    </div>
+
+	<div class="section" id="heading-examples">
+		<h1>Heading Examples</h1>
+		<h1>This is a Heading 1</h1>
+		<h2>This is a Heading 2</h2>
+		<h3>This is a Heading 3</h3>
+		<h4>This is a Heading 4</h4>
+		<h5>This is a Heading 5</h5>
+		<h6>This is a Heading 6</h6>
+	</div>
+
+    <div class="section">
+        <h2>Elements & Attributes</h2>
+        <p>An <b>Element</b> is a basic building block of an HTML page.</p>
+        <p>An <b>Attribute</b> provides additional information about an element.</p>
+    </div>
+
+    <div class="section">
+        <h2>Text Formatting</h2>
+        <p>This section demonstrates various text formatting tags.</p>
+        <p>Here's some <b>bold</b> text.</p>
+        <p>Here's some <i>italicized</i> text.</p>
+        <p>Here's some <u>underlined</u> text.</p>
+        <p>Here's some <small>small</small> text.</p>
+        <p>Here's some <em>emphasized</em> text.</p>
+        <p>Here's some <strong>strong</strong> text.</p>
+        <p>Here's some <mark>marked</mark> text.</p>
+        <p>Here's a <q>short quotation</q>.</p>
+    </div>
+
+	<div class="section">
+		<h2>Preformatted Text</h2>
+		<pre>
+			This is preformatted text.
+			It preserves both spaces and line breaks.
+			So you can format code or other text
+			exactly as you want it to appear.
+		</pre>
+	</div>
+
+    <div class="section">
+        <h2>Anchor tag</h2>
+        <a href="https://www.google.com" target="_blank">Visit Google</a>
+    </div>
+
+    <div class="section">
+        <h2>Img tag</h2>
+        <img src="https://img.freepik.com/photos-gratuite/collage-arriere-plan-programmation_23-2149901782.jpg" alt="Sample Image">
+    </div>
+
+	<div class="section">
+		<h2>HR tag</h2>
+		<p>This is some text.</p>
+		<hr>
+		<p>This is some text after the horizontal rule.</p>
+	</div>
+
+    <div class="section">
+        <h2>Table with</h2><br>
+        <h4>box-shadow, Padding, Margin, border-radius</h4>
+        <table class="table">
+            <tbody>
+                <tr>
+                    <td class="header-cell">HEADER</td>
+                </tr>
+                <tr>
+                    <td class="navigation-cell">NAVIGATION</td>
+                    <td class="content-cell">CONTENT</td>
+                </tr>
+                <tr>
+                    <td class="footer-cell">FOOTER</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="section">
+        <h2>Lists</h2>
+        <h3>Unorderd List:</h3>
+        <ul>
+            <li>Apple</li>
+            <li>Banana</li>
+            <li>Grapes</li>
+        </ul>
+        <h3>Orderd List:</h3>
+        <ol>
+            <li>First</li>
+            <li>Second</li>
+            <li>Three</li>
+        </ol>
+    </div>
+
+	<div class="section">
+		<h2>Description List</h2>
+		<dl>
+			<dt>HTML</dt>
+			<dd>HyperText Markup Language</dd>
+			<dt>CSS</dt>
+			<dd>Cascading Style Sheets</dd>
+		</dl>
+	</div>
+
+    <div class="section">
+        <h2>Forms & Label Tags</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Your Name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Your Email" required>
+
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Your Password" required>
+
+            <label for="date">Birthdate:</label>
+            <input type="date" id="date" name="date">
+
+            <label for="number">Age:</label>
+            <input type="number" id="age" name="age" min="1" max="120">
+
+            <label for="url">Website:</label>
+            <input type="url" id="url" name="url" placeholder="Your Website URL">
+
+            <label for="search">Search:</label>
+            <input type="search" id="search" name="search" placeholder="Your Search Term">
+
+            <label for="tel">Phone Number:</label>
+            <input type="tel" id="tel" name="tel" placeholder="Your Phone Number">
+
+            <label for="color">Favorite Color:</label>
+            <input type="color" id="color" name="color">
+
+            <label for="range">Volume:</label>
+            <input type="range" id="range" name="range" min="0" max="100">
+
+            <label for="file">Upload File:</label>
+            <input type="file" id="file" name="file">
+
+            <label for="textarea">Message:</label>
+            <textarea id="textarea" name="message" rows="4" cols="50" placeholder="Enter your message"></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <div class="section">
+        <h2>IFrame (Ex.Map)</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2483.528500733773!2d-0.1277583!3d51.5073509!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x487604ce4db5e193%3A0x9ca5f9a96118a168!2sTrafalgar%20Square!5e0!3m2!1sen!2suk!4v1622639912742!5m2!1sen!2suk" width="400" height="300" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+
+    <div class="section">
+        <h2>Video</h2>
+        <video controls>
+            <source src="C:\Users\Laptop Solutions\Videos\Captures\My Portfolio - Google Chrome 2025-03-22 22-35-19.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+
+    <div class="section">
+        <h2>Audio</h2>
+        <audio controls>
+            <source src="C:\Users\Laptop Solutions\Downloads\6c42-ddf0-42ac-9a96-020d83ace3e9.mp3" type="audio/mpeg">
+            Your browser does not support the audio element.
+        </audio>
+    </div>
+
+	<div class="section">
+		<h2>Marquee Tag with all behavior</h2>
+		<marquee direction="left">Marquee scrolling Left (Default)</marquee><br>
+		<marquee direction="up">Marquee scrolling Up</marquee><br>
+		<marquee direction="down">Marquee scrolling Down</marquee><br>
+        <marquee direction="right">Marquee scrolling Right</marquee>
+	</div>
+
+    
+
+    <div class="section" id="about">
+        <h2>About This Site</h2>
+        <p> I use the <b>"section"</b> tag which show different sections as you see in my site.<br>
+        and i use overflow CSS property in my sections,which tell the sections,
+        By adding overflow: auto, you tell the sections:
+
+        If the content inside me ever gets too big and tries to overflow my borders, add scrollbars (only if needed) so the user can see all of it!</p>
+    </div>
+
+    <footer>
+        © 1st Assignment based on HTML & CSS by <b>MK</b>.
+    </footer>
+
+</body>
+</html>

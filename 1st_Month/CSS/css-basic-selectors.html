@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basic Selectors Demonstration</title>
+    <style>
+        /* Universal Selector (*) - Applies to all elements */
+        * {
+            margin: 0; /* Resets default margins */
+            padding: 0; /* Resets default padding */
+            box-sizing: border-box; /* Makes width/height calculations easier */
+        }
+
+        /* Tag Selector (Targets all h1 elements) */
+        h1 {
+            color: navy;
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        /* Class Selector (.my-class) - Applies to elements with class="my-class" */
+        .my-class {
+            background-color: lightgreen;
+            padding: 10px;
+            border: 1px solid green;
+        }
+
+        /* ID Selector (#my-id) - Applies to the element with id="my-id" */
+        #my-id {
+            background-color: lightblue;
+            padding: 15px;
+            border: 1px solid blue;
+            font-weight: bold;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>CSS Basic Selectors</h1>
+
+    <div id="my-id">
+        This is a div with the ID "my-id".  It is styled using an ID selector.
+    </div>
+
+    <p class="my-class">
+        This is a paragraph with the class "my-class". It is styled using a class selector.
+    </p>
+
+    <p>
+        This paragraph is not styled by a class or ID selector, but it *is* affected by the universal selector (margin and padding reset).
+    </p>
+
+</body>
+</html>
